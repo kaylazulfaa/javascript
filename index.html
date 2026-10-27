@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta na+me="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>latihan JavaScript</h1>
+        <p>belajar JavaScript dengan praktik sederhana</p>
+        <h2 id="jam">00:00:00</h2>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>1. pesan JavaScript</h2>
+            <button onclick="tampilkanPesan()">klik saya</button>
+            <p id="pesan"></p>
+        </section>
+
+        <section class="card">
+            <h2>2. menyapa nama</h2>
+            <input type="text" id="nama" placeholder="masukkan nama">
+            <input type="number" id="umur" placeholder="masukkan umur">
+            <button onclick="sapaNama()">kirim</button>
+            <p id="hasilNama"></p>
+        </section>
+
+        <section class="card">
+            <h2>3. kalkulator</h2>
+            <input type="number" id="angka1" placeholder="angka pertama">
+            <input type="number" id="angka2" placeholder="angka kedua">
+            <button onclick="hitung()">jumlahkan</button>
+            <p id="hasil"></p>
+        </section>
+
+        <section class="card">
+            <h2>4. ubah background</h2>
+            <button onclick="ubahWarna()">ubah warna</button>
+            <p id="warna"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>praktik tugas JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
